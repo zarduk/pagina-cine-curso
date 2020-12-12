@@ -1,0 +1,52 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="estilosdos.css">
+</head>
+<body>
+<div id="cabecera">
+<ul>
+ <li><a href=index.html>Inicio</a></li>
+ <li><a href=accion.html>Acción</a></li>
+ <li><a href=drama.html>Drama</a></li>
+ <li><a href=terror.html>Terror</a></li>
+ <li><a href=sobremi.html>Sobre mi</a></li>
+ </ul>
+</div>
+<br>
+<div id="cuerpo">
+<p align="center"><img src="Imagenes/SOBREMI.png" height="100"></p>
+<img src="Imagenes/form.png" align="right" height="200" width="200">
+<p> Mi nombre es Álvaro García y soy alumno del instituto I.E.S Leonador Da Vinci. He realizado esta web como uno de los trabajos del curso que estoy haciendo en dicho instituto, concretamente un grado superior en Desarrollo de Aplicaciones Multiplaforma, para el módulo de Lenguajes de marcas y sistemas de gestión de información. El cine siempre ha sido una de las cosas que más me han gustado, así que he decidido poner algo de mis gustos en este ambito en esta web, y de paso que sirva para recomendar películas a gente. Quien sabe igual no las habéis visto.</p>
+<p>Ya que he recomendado sobre películas y sabéis sobre mi, dejo aquí un formulario en el que podéis enviar vuestras recomendaciones sobre películas a mi correo. <b>Siempre hay películas por ver</b>, así que si las recomendáis vosotros, mejor.</p>
+
+<form action="mailto:zarduk52@gmail.com" method="post" enctype="text/plain">
+<fieldset>
+<legend>Formulario de recomendación</legend>  
+<p>Nombre: <input type="text" name="nombre" size="40"></p>
+  <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+  <p>Sexo:
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+  </p>
+Género favorito:
+<select name="género">
+  <option>Acción</option>
+  <option>Drama</option>
+  <option>Comedia</option>
+  <option>Terror</option>
+  <option>Ciencia Ficción</option>
+</select>
+<p>Recomendaciones:</p>
+<p><textarea name="texto" rows="15" cols="50"></textarea></p>
+  <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+  </p>
+</fieldset>
+</form>
+</div>
+<br>
+
+</body>
+</html>
